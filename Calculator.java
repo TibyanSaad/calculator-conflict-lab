@@ -18,7 +18,7 @@ public class Calculator {
         System.out.println("Quotient: " + quotient);
         System.out.println("Sum: " + sum);
         System.out.println("difference: " + difference);
-        System.out.println("Exponent: " + Math.pow(num1,num2));
+        System.out.println("Power: " + Math.pow(num1,num2));
         scanner.close();
     }
 }
