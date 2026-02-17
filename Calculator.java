@@ -13,12 +13,17 @@ public class Calculator {
         int quotient = num1 / num2;
         int sum = num1 + num2;
         int difference = num1 - num2;
+        int factorial = 1;
+        for (int i = num1; i >= 1; i--) {
+            factorial = factorial * i;
+        }
 
         System.out.println("product: " + product);
         System.out.println("Quotient: " + quotient);
         System.out.println("Sum: " + sum);
         System.out.println("difference: " + difference);
-        System.out.println("Power: " + Math.pow(num1,num2));
+        System.out.println("Power: " + Math.pow(num1, num2));
+        System.out.println("factorial of" + num1 + "is: " + factorial);
         scanner.close();
     }
 }
