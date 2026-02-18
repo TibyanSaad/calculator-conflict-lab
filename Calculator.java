@@ -27,3 +27,32 @@ public class Calculator {
         scanner.close();
     }
 }
+
+
+
+
+//
+import java.util.Scanner;
+
+public class calculator {
+
+    public static String evenOdd(int num1){
+        if (num1 % 2 == 0)
+            return "Even";
+        else
+            return "Odd";
+    }
+
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+//second:
+
+        System.out.print("Enter a number: ");
+        int num1 = scanner.nextInt();
+        String result = evenOdd(num1);
+        System.out.println("Result: " + result);
+
+        scanner.close();
+    }
+}
